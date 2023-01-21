@@ -47,7 +47,6 @@ CREATE TABLE case_parties (
     case_id INT NOT NULL,
     party_name VARCHAR(255) NOT NULL,
     party_type VARCHAR(255) NOT NULL,
-    advocate_name VARCHAR(255),
     FOREIGN KEY (case_id) REFERENCES cases(case_id)
 );
 ```
