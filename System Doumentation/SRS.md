@@ -18,7 +18,6 @@ Digital Imaging & Scanning International Ltd
 
 ##
 
-
 [Introduction](#_nay2khqz97x7)
 
 [Purpose](#_20fmaulyb36t)
@@ -188,7 +187,7 @@ This project scope will ensure that the system can be designed, developed, teste
 
 ### Functional Requirements
 
-#### Authentication and Authorization:
+#### Authentication and Authorization
 
 1.1 The system shall provide a login page for users to enter their unique credentials.
 
@@ -196,7 +195,7 @@ This project scope will ensure that the system can be designed, developed, teste
 
 1.3 The system shall restrict users from performing actions they are not authorized to perform.
 
-#### Case Management:
+#### Case Management
 
 2.1 The system shall allow users to create, edit, and view cases.
 
@@ -206,7 +205,7 @@ This project scope will ensure that the system can be designed, developed, teste
 
 2.4 The system shall allow users to create case profiles containing detailed case information and history.
 
-#### Case Parties Profiling:
+#### Case Parties Profiling
 
 3.1 The system shall allow users to create profiles for advocates and magistrates involved in the cases.
 
@@ -214,20 +213,19 @@ This project scope will ensure that the system can be designed, developed, teste
 
 ####
 
-
-#### Court Profile:
+#### Court Profile
 
 4.1 The system shall allow users to create profiles for courts involved in the cases.
 
 4.2 The profiles shall contain information such as the Case location, jurisdiction, and case history.
 
-#### Management Tracking of Files Movement:
+#### Management Tracking of Files Movement
 
 5.1 The system shall allow users to track the movement of case files within the court system.
 
 5.2 The system shall provide real-time updates on the location of the case files and the status of the case.
 
-#### Administration of Legal Fees:
+#### Administration of Legal Fees
 
 6.1 The system shall allow users to administer legal fees for cases.
 
@@ -235,7 +233,7 @@ This project scope will ensure that the system can be designed, developed, teste
 
 6.3 The system shall provide the ability to generate a legal fees report that can be attached to the relevant invoice.
 
-#### Reports:
+#### Reports
 
 7.1 The system shall provide a set of predefined reports based on user-specified criteria.
 
@@ -265,14 +263,13 @@ Overall, the integration with the EDMS and CRM will enhance the functionality an
 
 ### Design Constraints
 
-### The system is designed for use in a legal environment and is not intended for use in other industries.
+### The system is designed for use in a legal environment and is not intended for use in other industries
 
-### The system's functionality is based on a set of assumptions about the legal process and may not be suitable for use in jurisdictions with different legal processes.
+### The system's functionality is based on a set of assumptions about the legal process and may not be suitable for use in jurisdictions with different legal processes
 
-### The system is not intended to provide legal advice and should not be used as a substitute for the advice of a qualified legal professional.
+### The system is not intended to provide legal advice and should not be used as a substitute for the advice of a qualified legal professional
 
 ###
-
 
 ## Appendices
 
@@ -304,13 +301,16 @@ Overall, the integration with the EDMS and CRM will enhance the functionality an
 
 A use case diagram is a graphical representation of the interactions between actors (users, systems, or other entities) and a system or application. It illustrates the functional requirements of the system in a simplified way, using actors and use cases to represent the system's behavior
 
-![](RackMultipart20230306-1-roeqr3_html_fb8f376fb58ac48c.jpg)
+<!-- ![](RackMultipart20230306-1-roeqr3_html_fb8f376fb58ac48c.jpg) -->
+![Alt text](https://github.com/openchlsystem/mahakama/blob/de51d6f4deaf517ed4234cb3063ec473ecced76b/System%20Doumentation/Diagrams/Mahakama_Design-Use%20Case%20Diagram.jpg)
+
 
 ### Activity Diagrams
 
 An activity diagram is a graphical representation of a business process or workflow, showing the sequence of activities, tasks, and decisions needed to complete the process. It is a type of flowchart that illustrates the steps and decision points in a process, and how they relate to each other.
 
 ![](RackMultipart20230306-1-roeqr3_html_9db233ebf9fb670e.jpg)
+
 
 ### Sequence Diagrams
 
